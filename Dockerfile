@@ -1,4 +1,4 @@
-FROM ubuntu:21.10
+FROM ubuntu:22.04
 RUN DEBIAN_FRONTEND=noninteractive \
 apt-get -y update \
 && apt-get -y upgrade
